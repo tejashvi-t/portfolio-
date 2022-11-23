@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(215, 220, 236);
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    width: 100vw;
+    margin-top: -10px;
+    /* background: transparent; */
+    background: rgb(0, 0, 0);
+
+}
+
+.inside-nav {
+    display: flex;
+    flex-direction: row
+}
+
+
+.inside-nav li {
+    margin: 15px;
+    list-style-type: none;
+    font-family: 'Fragment Mono', monospace;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.container {
+    margin-top: -15px;
+    display: flex;
+    font-family: 'Fragment Mono', monospace;
+
+}
+
+
+
+
+.main {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.inside-main {
+    margin: 5px auto;
+
+    /* background: rgba(143, 213, 233, 0.568); */
+    width: 100vw;
+    height: 47vh;
+
+}
+
+
+.inside-main {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.devPic img {
+    margin-top: 10px;
+    width: 25vh;
+    height: 40vh;
+    /* border-radius: 150px; */
+}
+
+
+.Info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.hello {
+    font-size: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(247, 15, 15);
+
+}
+
+.name {
+    font-size: 2.5rem;
+    font-family: 'Sacramento', cursive;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.skills-f {
+    margin-top: 4px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(120, 112, 98);
+}
+
+
+.buttons button {
+    margin: 5px;
+    margin-top: 14px;
+    padding: 3px;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    border: 2px solid black;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: black;
+    color: red;
+    box-shadow: 5px 5px 10px 3px rgba(237, 113, 113, 0.8);
+}
+
+
+
+/* social media  */
+
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.social-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+
+
+
+
+/* about  */
+
+.about-me {
+
+    margin: 70px 25px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-head {
+    /* margin: 90px 0px; */
+    /* margin: auto; */
+    width: 50vw;
+
+}
+
+.new-about {
+    width: 35vw;
+    box-shadow: 0px 0px 19px 12px red;
+    margin: auto;
+}
+
+.about-h {
+    color: rgb(0, 0, 0);
+    font-family: 'Sacramento', cursive;
+    margin-left: 50px;
+
+    font-size: 70px;
+}
+
+.about-para {
+
+    width: 50vw;
+
+}
+
+.about-para {
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.about-p {
+
+    margin-top: -25px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+}
+
+.para-in {
+    margin-top: 45px;
+}
+
+.tejas {
+    background-color: rgba(237, 201, 110, 0.674);
+    color: whitesmoke;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.tejas-1 {
+    background-color: rgba(241, 175, 225, 0.683);
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.message {
+    background-color: rgba(137, 119, 219, 0.635);
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+
+/* SKILLS  */
+
+.skills {
+    width: 90vw;
+    height: 45vh;
+    margin: auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillBars {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+
+/* form css  */
+
+
+.form-c {
+    border-radius: 25px;
+    width: 55vh;
+    background: rgb(138, 37, 37);
+    margin: 70px auto;
+    height: 55vh;
+    background: linear-gradient(180deg, rgb(10, 19, 59), rgb(64, 20, 20));
+
+}
+
+
+.update {
+    text-transform: uppercase;
+    color: white;
+}
+
+.inside-form {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+
+.width-set {
+    width: 12vw;
+}
+
+
+.h3-f {
+    margin-top: 15px;
+    letter-spacing: 2px;
+    color: honeydew;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* button of form  */
+
+.enquery {
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 100px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 100px;
+    color: red;
+    background: rgb(116, 6, 6);
+
+}
+
+
+
+
+
+
+.footer1 {
+    background-color: black;
+    margin-top: 10px;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+
+}
+
+.foot {
+    margin: auto;
+    width: 45vw;
+    height: 22vh;
+    /* background: yellow; */
+
+}
+
+
+
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+    font-weight: 1px;
+
+
+}
+
+.fell-free {
+    color: red;
+    margin: auto;
+    font-family: 'Cormorant', serif;
+
+}
+
+.copy-right {
+    margin-top: 5px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+
+.heart {
+
+    color: red;
+}
+
+.brand {
+    margin-top: 5px;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+
+
+.home-button {
+    width: 60px;
+    border-radius: 45px;
+    margin: auto;
+    margin-top: 45px;
+    background: rgb(169, 155, 155);
+
+    text-align: center;
+}
+
+
+.home-button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* responsiveness  */
+
+/* 
+@media  {
+    
+} */
